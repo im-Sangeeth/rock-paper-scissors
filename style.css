@@ -1,0 +1,95 @@
+.col{
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(209, 194, 212);
+    padding: 20px;
+}
+#vers{
+    position:relative;
+    left: 44%;
+    height: 100px;
+    top: 130px;
+}
+.col:active{
+    background-color: bisque;
+}
+div{
+    width: 100px;
+    height: 50px;
+}
+#red{
+    background-image: url(gif/stone.png);
+    background-size: cover;
+}
+#blue{
+    background-image: url(gif/scissors.png);
+    background-size: cover;
+}
+#green{
+    background-image: url(gif/paper.png);
+    background-size: cover;
+}
+.qwe{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: rgb(144, 139, 145);
+    position: relative;
+    bottom: 100px;
+}
+.qwe:active{
+    background-color: rgb(254, 75, 75);
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    top: 300px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(92, 23, 23);
+    font-family: 'Bungee Inline', cursive;
+}
+.answer{
+    position: relative;
+    bottom: 100px;
+}
+#final{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+body{
+    background-color:rgb(159, 195, 209);
+}
+.images{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.human{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.arti{
+    height: 40vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
