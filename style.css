@@ -9,7 +9,7 @@
 }
 #vers{
     position:relative;
-    left: 44%;
+    
     height: 100px;
     top: 130px;
 }
@@ -61,6 +61,7 @@ h1{
     position: relative;
     bottom: 100px;
 }
+
 #final{
     display:flex;
     flex-direction: column;
@@ -72,6 +73,9 @@ h1{
 }
 body{
     background-color:rgb(159, 195, 209);
+}
+#tui{
+    height: 70px;
 }
 .images{
     position: relative;
@@ -92,4 +96,48 @@ body{
     width: 50%;
     display: flex;
     justify-content: center;
+}
+
+
+
+/* Default styles for larger screens */
+/* ... Your existing CSS ... */
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    #vers {
+        top: 30px;
+    }
+
+    .col {
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+    }
+
+    #box {
+        top:250px;
+    }
+
+    .qwe {
+        width: 80px;
+        height: 80px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    #tui{
+        height: 20px;
+        margin-bottom: 100px;
+    }
+   #hum{
+    height: 150px;
+    margin-right: 40px;
+   }
+   #mach{
+    height: 150px;
+    margin-left: 40px;
+   }
+   .answer{
+    font-size: 30px;
+   }
 }
